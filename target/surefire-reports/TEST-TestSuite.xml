@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="152.519" tests="7" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="C:\selenium\chromedriver_win32\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\hp pc\workspace\FreeCrmTest\target\test-classes;C:\Users\hp pc\workspace\FreeCrmTest\target\classes;C:\Users\hp pc\.m2\repository\com\apple\AppleJavaExtensions\1.4\AppleJavaExtensions-1.4.jar;C:\Users\hp pc\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\hp pc\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\hp pc\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\hp pc\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\hp pc\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\hp pc\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\hp pc\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\hp pc\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\hp pc\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\hp pc\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\hp pc\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\hp pc\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\hp pc\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\hp pc\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\hp pc\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\hp pc\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\hp pc\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\hp pc\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\hp pc\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\hp pc\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\hp pc\.m2\repository\org\testng\testng\6.9.5\testng-6.9.5.jar;C:\Users\hp pc\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\hp pc\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\hp pc\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\hp pc\.m2\repository\org\apache\ant\ant\1.7.0\ant-1.7.0.jar;C:\Users\hp pc\.m2\repository\org\apache\ant\ant-launcher\1.7.0\ant-launcher-1.7.0.jar;C:\Users\hp pc\.m2\repository\com\google\inject\guice\4.0\guice-4.0-no_aop.jar;C:\Users\hp pc\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\hp pc\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\hp pc\.m2\repository\org\yaml\snakeyaml\1.15\snakeyaml-1.15.jar;C:\Users\hp pc\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\hp pc\.m2\repository\org\apache\poi\poi\3.16-beta2\poi-3.16-beta2.jar;C:\Users\hp pc\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\hp pc\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\hp pc\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\hp pc\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\hp pc\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\hp pc\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\hp pc\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\hp pc\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\hp pc\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\Users\hp pc\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\hp pc\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;C:\Users\hp pc\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\hp pc\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\hp pc\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\hp pc\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\hp pc\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\hp pc\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\hp pc\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\hp pc\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_241\bin"/>
+    <property name="sun.java.command" value="C:\Users\hp pc\AppData\Local\Temp\surefire6938384534029232734\surefirebooter3511324496579342599.jar C:\Users\hp pc\AppData\Local\Temp\surefire6938384534029232734 2021-07-23T21-47-16_861-jvmRun1 surefire7575082280432153343tmp surefire_03950963869956602455tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\hp pc\workspace\FreeCrmTest\target\test-classes;C:\Users\hp pc\workspace\FreeCrmTest\target\classes;C:\Users\hp pc\.m2\repository\com\apple\AppleJavaExtensions\1.4\AppleJavaExtensions-1.4.jar;C:\Users\hp pc\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\hp pc\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\hp pc\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\hp pc\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\hp pc\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\hp pc\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\hp pc\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\hp pc\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\hp pc\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\hp pc\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\hp pc\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\hp pc\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\hp pc\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\hp pc\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\hp pc\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\hp pc\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\hp pc\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\hp pc\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\hp pc\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\hp pc\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\hp pc\.m2\repository\org\testng\testng\6.9.5\testng-6.9.5.jar;C:\Users\hp pc\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\hp pc\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\hp pc\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\hp pc\.m2\repository\org\apache\ant\ant\1.7.0\ant-1.7.0.jar;C:\Users\hp pc\.m2\repository\org\apache\ant\ant-launcher\1.7.0\ant-launcher-1.7.0.jar;C:\Users\hp pc\.m2\repository\com\google\inject\guice\4.0\guice-4.0-no_aop.jar;C:\Users\hp pc\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\hp pc\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\hp pc\.m2\repository\org\yaml\snakeyaml\1.15\snakeyaml-1.15.jar;C:\Users\hp pc\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\hp pc\.m2\repository\org\apache\poi\poi\3.16-beta2\poi-3.16-beta2.jar;C:\Users\hp pc\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\hp pc\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\hp pc\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\hp pc\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\hp pc\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\hp pc\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\hp pc\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\hp pc\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\hp pc\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\Users\hp pc\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\hp pc\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;C:\Users\hp pc\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\hp pc\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\hp pc\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\hp pc\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\hp pc\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\hp pc\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\hp pc\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\hp pc\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\hp pc"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_241"/>
+    <property name="basedir" value="C:\Users\hp pc\workspace\FreeCrmTest"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\hp pc\AppData\Local\Temp\surefire6938384534029232734\surefirebooter3511324496579342599.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_241\lib\resources.jar;C:\Program Files\Java\jre1.8.0_241\lib\rt.jar;C:\Program Files\Java\jre1.8.0_241\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_241\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_241\lib\jce.jar;C:\Program Files\Java\jre1.8.0_241\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_241\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_241\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_241-b07"/>
+    <property name="user.name" value="hp pc"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.3"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_241\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\hp pc\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\HPPC~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_241"/>
+    <property name="user.dir" value="C:\Users\hp pc\workspace\FreeCrmTest"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_241\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\hp pc\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Hewlett-Packard\SimplePass\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.1\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\CodeBlocks\MinGW, C:\Program Files\Microsoft\Web Platform Installer\;C:\TDM-GCC-64\bin;%M2_HOME%\bin;C:\Users\hp pc\.dnx\bin;C:\Modeltech_pe_edu_10.4a\win32pe_edu;C:\modeltech64_10.5\win64;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.241-b07"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_241\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="loginPageTest" classname="com.crm.qa.testcases.LoginPageTest" time="0.064">
+    <failure message="expected [CRM PRO Log In Screen] but found [CRMPRO Log In Screen]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [CRM PRO Log In Screen] but found [CRMPRO Log In Screen]
+	at com.crm.qa.testcases.LoginPageTest.loginPageTest(LoginPageTest.java:31)
+]]></failure>
+    <system-out><![CDATA[Before navigating to: 'https://classic.freecrm.com/login.cfm'
+Navigated to:'https://classic.freecrm.com/login.cfm'
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 4947
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1627057047.053][WARNING]: This version of ChromeDriver has not been tested with Chrome version 92.
+Jul 23, 2021 9:47:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="crmLogoTest" classname="com.crm.qa.testcases.LoginPageTest" time="0.212">
+    <system-out><![CDATA[Before navigating to: 'https://classic.freecrm.com/login.cfm'
+Navigated to:'https://classic.freecrm.com/login.cfm'
+Trying to find Element By : By.xpath: //img[@class='img-responsive']
+Found Element By : By.xpath: //img[@class='img-responsive']
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 43814
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1627057059.331][WARNING]: This version of ChromeDriver has not been tested with Chrome version 92.
+Jul 23, 2021 9:47:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Login" classname="com.crm.qa.testcases.LoginPageTest" time="7.707">
+    <system-out><![CDATA[Before navigating to: 'https://classic.freecrm.com/login.cfm'
+Navigated to:'https://classic.freecrm.com/login.cfm'
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //input[@type='submit']
+Found Element By : By.xpath: //input[@type='submit']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (7f3f6ef0474a0fa2fb05c7556c452a92)] -> xpath: //input[@type='submit']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (7f3f6ef0474a0fa2fb05c7556c452a92)] -> xpath: //input[@type='submit']]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 15202
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1627057069.463][WARNING]: This version of ChromeDriver has not been tested with Chrome version 92.
+Jul 23, 2021 9:47:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyContactPageLink" classname="com.crm.qa.testcases.HomePageTest" time="1">
+    <system-out><![CDATA[Before navigating to: 'https://classic.freecrm.com/login.cfm'
+Navigated to:'https://classic.freecrm.com/login.cfm'
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //input[@type='submit']
+Found Element By : By.xpath: //input[@type='submit']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (8aae58ac0f8a3a312c52656d0cb530a9)] -> xpath: //input[@type='submit']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (8aae58ac0f8a3a312c52656d0cb530a9)] -> xpath: //input[@type='submit']]
+Trying to find Element By : By.xpath: //a[contains(text(),'Contact')]
+Found Element By : By.xpath: //a[contains(text(),'Contact')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (8aae58ac0f8a3a312c52656d0cb530a9)] -> xpath: //a[contains(text(),'Contact')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (8aae58ac0f8a3a312c52656d0cb530a9)] -> xpath: //a[contains(text(),'Contact')]]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 18130
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1627057086.663][WARNING]: This version of ChromeDriver has not been tested with Chrome version 92.
+Jul 23, 2021 9:48:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyHomePageTitleTest" classname="com.crm.qa.testcases.HomePageTest" time="0.064">
+    <failure message="homepge title not matched expected [Free CRM  - CRM software for customer relationship management, sales, and support.] but found [Free CRM - CRM software for customer relationship management, sales, and support.]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: homepge title not matched expected [Free CRM  - CRM software for customer relationship management, sales, and support.] but found [Free CRM - CRM software for customer relationship management, sales, and support.]
+	at com.crm.qa.testcases.HomePageTest.verifyHomePageTitleTest(HomePageTest.java:38)
+]]></failure>
+    <system-out><![CDATA[Before navigating to: 'https://classic.freecrm.com/login.cfm'
+Navigated to:'https://classic.freecrm.com/login.cfm'
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //input[@type='submit']
+Found Element By : By.xpath: //input[@type='submit']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (e50938deb0a72000145d378b672dd980)] -> xpath: //input[@type='submit']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (e50938deb0a72000145d378b672dd980)] -> xpath: //input[@type='submit']]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 15323
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1627057108.565][WARNING]: This version of ChromeDriver has not been tested with Chrome version 92.
+Jul 23, 2021 9:48:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyContactsPageLabel" classname="com.crm.qa.testcases.ContactsPageTest" time="12.655">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;header__name&apos;]&quot;}&#10;  (Session info: chrome=92.0.4515.107)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;BAADAL&apos;, ip: &apos;10.0.27.70&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\HPPC~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60689}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 47cb4e1f62326ccc63bbe90876ce9e51&#10;*** Element info: {Using=xpath, value=//span[@class=&apos;header__name&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='header__name']"}
+  (Session info: chrome=92.0.4515.107)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BAADAL', ip: '10.0.27.70', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\HPPC~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60689}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 47cb4e1f62326ccc63bbe90876ce9e51
+*** Element info: {Using=xpath, value=//span[@class='header__name']}
+	at com.crm.qa.testcases.ContactsPageTest.verifyContactsPageLabel(ContactsPageTest.java:38)
+]]></failure>
+    <system-out><![CDATA[Before navigating to: 'https://classic.freecrm.com/login.cfm'
+Navigated to:'https://classic.freecrm.com/login.cfm'
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //input[@type='submit']
+Found Element By : By.xpath: //input[@type='submit']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (47cb4e1f62326ccc63bbe90876ce9e51)] -> xpath: //input[@type='submit']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (47cb4e1f62326ccc63bbe90876ce9e51)] -> xpath: //input[@type='submit']]
+Trying to find Element By : By.xpath: //span[@class='header__name']
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='header__name']"}
+  (Session info: chrome=92.0.4515.107)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BAADAL', ip: '10.0.27.70', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\HPPC~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60689}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 47cb4e1f62326ccc63bbe90876ce9e51
+*** Element info: {Using=xpath, value=//span[@class='header__name']}
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 1656
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1627057128.407][WARNING]: This version of ChromeDriver has not been tested with Chrome version 92.
+Jul 23, 2021 9:48:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyclickOnAndroidLink" classname="com.crm.qa.testcases.ContactsPageTest" time="12.087">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h2[contains(text(),&apos;Android&apos;)]&quot;}&#10;  (Session info: chrome=92.0.4515.107)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;BAADAL&apos;, ip: &apos;10.0.27.70&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\HPPC~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51896}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: efe4044f25c4c4695c24324ea1528533&#10;*** Element info: {Using=xpath, value=//h2[contains(text(),&apos;Android&apos;)]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h2[contains(text(),'Android')]"}
+  (Session info: chrome=92.0.4515.107)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BAADAL', ip: '10.0.27.70', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\HPPC~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51896}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: efe4044f25c4c4695c24324ea1528533
+*** Element info: {Using=xpath, value=//h2[contains(text(),'Android')]}
+	at com.crm.qa.testcases.ContactsPageTest.verifyclickOnAndroidLink(ContactsPageTest.java:44)
+]]></failure>
+    <system-out><![CDATA[Before navigating to: 'https://classic.freecrm.com/login.cfm'
+Navigated to:'https://classic.freecrm.com/login.cfm'
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //input[@type='submit']
+Found Element By : By.xpath: //input[@type='submit']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (efe4044f25c4c4695c24324ea1528533)] -> xpath: //input[@type='submit']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (efe4044f25c4c4695c24324ea1528533)] -> xpath: //input[@type='submit']]
+Trying to find Element By : By.xpath: //h2[contains(text(),'Android')]
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h2[contains(text(),'Android')]"}
+  (Session info: chrome=92.0.4515.107)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BAADAL', ip: '10.0.27.70', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\HPPC~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51896}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: efe4044f25c4c4695c24324ea1528533
+*** Element info: {Using=xpath, value=//h2[contains(text(),'Android')]}
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 45191
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1627057164.106][WARNING]: This version of ChromeDriver has not been tested with Chrome version 92.
+Jul 23, 2021 9:49:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
